@@ -1004,8 +1004,8 @@ section {
 # Contact Us
 --------------------------------------------------------------*/
 .contact .info {
-  border-top: 3px solid var(--turqua);
-  border-bottom: 3px solid var(--turqua);
+  border-top: 3px solid var(--vio1);
+  border-bottom: 3px solid var(--vio1);
   padding: 30px;
   background: var(--bg-white);
   width: 100%;
@@ -1014,11 +1014,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: var(--vio1);
+  color: var(--bg-white);
   float: left;
   width: 44px;
   height: 44px;
-  background: #fdf1ec;
+  background: var(--vio1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1065,19 +1065,19 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: var(--vio1);
+  background: var(--turqua);
   color: var(--bg-white);
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: var(--vio1);
+  background: var(--turqua);
   color: var(--bg-white);
 }
 
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid var(--turqua);
-  border-bottom: 3px solid var(--turqua);
+  border-top: 3px solid var(--vio1);
+  border-bottom: 3px solid var(--vio1);
   padding: 30px;
   background: var(--bg-white);
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -1306,7 +1306,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: var(--vio1);
+  color: var(--turqua);
 }
 
 #footer .footer-top .social-links a {
